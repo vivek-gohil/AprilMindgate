@@ -1,0 +1,28 @@
+Database - Oracle
+Core Java
+	Lambda Expressions 
+		https://youtu.be/gpIUfj3KaOc?si=TeP-KF-coSxqelXU
+Spring Core
+	https://youtu.be/GB8k2-Egfv0?si=Q0DwLuiGiS2Nr2Ae
+Spring Data JDBC
+	https://youtu.be/eR_JFtqyNL4?si=m4GK7P0AmCXePzyX
+Spring MVC
+
+Spring Boot
+	https://youtu.be/msXL2oDexqw?si=1Wj37902SzUQ2oGQ
+Spring Batch
+	https://youtu.be/huUdmP5iPM8?si=_A0Pbodm-HiScFYs
+Java Threads Executor Framework
+	https://youtu.be/6Oo-9Can3H8?si=kXbQjYJky9W1sHgl
+Kakfa
+	https://youtu.be/xGwzuz8F9k0?si=Tspqm7Wx5lpnZpzB
+Talend Tool
+	https://youtu.be/9xKnho2veHU?si=Lswb3KaldeSBUdtZ	
+Spring Microservice
+		Level 1 : https://youtu.be/y8IQb4ofjDo?si=nYekwjxKYG49CPej
+		Level 2 : https://youtu.be/o8RO38KbWvA?si=aHPQ6UZdAUrQtUc5
+		Level 3 : https://youtu.be/upoIwn4rWCo?si=jDZ84qEHV1Zx4IGA
+		
+
+GitHub Link
+	
