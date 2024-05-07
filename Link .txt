@@ -1,0 +1,27 @@
+Link 
+https://youtube.com/playlist?list=PLVz2XdJiJQxwpWGoNokohsSW2CysI6lDc&si=TTQ7I1rXZcX_T2Kt
+
+
+Steps
+1. Start Zookeeper - default port - 2181
+	bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+2. Start Kafka Server - default port - 9092
+	bin\windows\kafka-server-start.bat config\server.properties
+3. Create a topic
+	a. Partition Count
+	b. Replication Factor
+	bin\windows\kafka-topics.bat --bootstrap-server BornToCode:9092 --create --topic hello-world-topic partitions 3 --replication-factor 1
+
+	c. List all topics created
+	bin\windows\kafka-topics.bat --bootstrap-server BornToCode:9092 --list
+
+	d. Describe the topic created
+	bin\windows\kafka-topics.bat --bootstrap-server BornToCode:9092 --describe --topic hello-world-topic
+
+Open Offset explorer to visualize
+
+4. Producer
+	bin\windows\kafka-console-producer.bat --broker-list BornToCode:9092 --topic hello-world-topic
+5. Consumer
+	bin\windows\kafka-console-consumer.bat --bootstrap-server BornToCode:9092 --topic hello-world-topic --from-beginning
+
